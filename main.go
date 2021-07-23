@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/santoshanand/covid-cmd-go/cmd"
+import "github.com/santoshanand/covid-cli/cmd"
 
 func main() {
 	cmd.Execute()

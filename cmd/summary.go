@@ -92,7 +92,7 @@ func getSummary(country string) {
 // summaryCmd represents the summary command
 var summaryCmd = &cobra.Command{
 	Use:   "summary",
-	Short: "A summary of new and total cases per country updated daily",
+	Short: "A summary of new and total cases(active, recovered, death) per country name 'covid-cli summary south-africa'",
 	Long:  `A summary of new and total cases per country updated daily`,
 	Run: func(cmd *cobra.Command, args []string) {
 		country := "india"
