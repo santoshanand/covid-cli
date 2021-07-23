@@ -1,8 +1,8 @@
-## Command line utility to get Covid cases
+# Command line utility to get Covid cases
 
-# Use
+## Use
 
-`
+<pre>
 sage:
   covid-cli [command]
 
@@ -15,4 +15,4 @@ Flags:
       --config string   config file (default is $HOME/.covid-cli.yaml)
   -h, --help            help for covid-cli
   -t, --toggle          Help message for toggle
-`
+</pre>
